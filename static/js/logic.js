@@ -14,7 +14,7 @@ let map = L.map("map", {
 let explanationPopup = L.popup()
     .setLatLng([39.83, -108.58]) // Adjust the coordinates as needed
     .setContent('<h1>Earthquake Map</h1>' +
-        '<p>This map shows earthquake data with depth-based coloring and magnitude-based marker size. Click on a marker for more information about each earthquake.</p>')
+        '<p>This map shows earthquake data for the past 7 days with depth-based coloring and magnitude-based marker size. Click on a marker for more information about each earthquake.</p>')
     .openOn(map);
 
 // Create a legend
