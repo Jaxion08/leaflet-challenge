@@ -1,0 +1,17 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.legend-color {
+  width: 10px; /* Width of colored box */
+  height: 10px; /* Height of colored box */
+  display: inline-block;
+  margin-right: 5px; /* Spacing between the color box and label */
+}
